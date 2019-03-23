@@ -1,0 +1,58 @@
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #e9f0f4;
+}
+
+.table {
+  display: inline-block;
+  background-color: #fff;
+}
+
+#firstRow {
+  background-color: #2e3641;
+  color: white;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 480px;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+
+.row div {
+  border: 1px solid gray;
+  padding: 12px;
+}
+
+.checkboxDiv {
+  text-align: center;
+}
+
+input.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.fa-trash-alt {
+  float: right;
+}
+
+#plusDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-plus {
+  color: #9eb2c0;
+}
+
+.task {
+  color: #2e3641;
+}
